@@ -36,6 +36,7 @@ public class ProjectController implements Controller {
 		}
 		
 		try {
+			@SuppressWarnings("deprecation")
 			int projectId = new Integer(projectIdString);
 			Project p = DataController.getInstance().getProjectService().getProjectById(projectId);
 			request.setAttribute("currentProject", p);

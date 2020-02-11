@@ -1,20 +1,16 @@
 package database;
 
-import java.time.LocalDateTime;
-import java.util.List;
 
-import database.project.ProjectDAO;
+
+
+//import database.project.ProjectDAO;
 import database.user.UserDAO;
-import de.jarm.main.data.DataController;
-import de.jarm.main.data.Message;
-import de.jarm.main.data.Project;
-import de.jarm.main.data.ProjectToDo;
 import de.jarm.main.data.User;
 
 public class DatabaseTests {
 	
 	private static UserDAO userDao = new UserDAO();
-	private static ProjectDAO projectDao = new ProjectDAO();
+	//private static ProjectDAO projectDao = new ProjectDAO();
 	
 	public static void main(String[] args) {
 		

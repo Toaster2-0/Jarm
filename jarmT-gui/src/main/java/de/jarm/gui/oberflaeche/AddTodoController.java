@@ -17,6 +17,7 @@ public class AddTodoController implements Controller {
 		
 		String titel = request.getParameter("Titel");
 		String description = request.getParameter("Description");
+		@SuppressWarnings("deprecation")
 		int projectId = new Integer(request.getParameter("id"));
 		
 		try {

@@ -16,6 +16,7 @@ import de.jarm.main.database.exceptions.ValidierungsException;
 
 public class EditTodoController implements Controller {
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse response, StringBuffer message)
 			throws Exception {

@@ -16,6 +16,7 @@ import de.jarm.main.data.User;
 public class FindUserServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
+	@SuppressWarnings("deprecation")
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String userName = request.getParameter("userName").trim().toLowerCase();

@@ -15,6 +15,7 @@ import de.jarm.main.data.User;
 
 public class AddUserToTodoController implements Controller {
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse response, StringBuffer message)
 			throws Exception {

@@ -28,7 +28,10 @@ public class FindTodoServlet extends HttpServlet {
 
 			try {
 
+				
+				@SuppressWarnings("deprecation")
 				int projectId = new Integer(projectIdString);
+				@SuppressWarnings("deprecation")
 				int todoId = new Integer(todoIdString);
 				
 				Project p = DataController.getInstance().getProjectService().getProjectById(projectId);

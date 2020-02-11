@@ -19,6 +19,7 @@ public class AddMessageController implements Controller {
 		
 		if(id!=null) {
 			try {
+				@SuppressWarnings("deprecation")
 				int projectId = new Integer(id);
 				Project p = DataController.getInstance().getProjectService().getProjectById(projectId);
 				request.setAttribute("currentProject", p);

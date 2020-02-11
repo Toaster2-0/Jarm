@@ -9,6 +9,7 @@ import de.jarm.main.data.DataController;
 
 public class RemoveUserFromProjectController implements Controller {
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse response, StringBuffer message)
 			throws Exception {

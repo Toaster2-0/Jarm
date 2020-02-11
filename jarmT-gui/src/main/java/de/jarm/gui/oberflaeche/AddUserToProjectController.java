@@ -26,11 +26,13 @@ public class AddUserToProjectController implements Controller{
 			
 			for (String idString : userIdArray) {
 				if (!idString.equals("")) {
+					@SuppressWarnings("deprecation")
 					int thisId = new Integer(idString);
 					idListToAdd.add(thisId);
 				}
 			}
 			
+			@SuppressWarnings("deprecation")
 			int projectId = new Integer( request.getParameter("id"));
 			try {			
 				for (Integer i : idListToAdd) {

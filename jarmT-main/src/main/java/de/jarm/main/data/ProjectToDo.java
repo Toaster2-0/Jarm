@@ -32,7 +32,7 @@ public class ProjectToDo {
 		setCrationDate(creationDate);
 	}
 	
-	private ProjectToDo(int id, String name, String description, List<User> instructedUsers) {
+	ProjectToDo(int id, String name, String description, List<User> instructedUsers) {
 		this(id, name, description, instructedUsers, 0, LocalDateTime.now());
 	}
 
