@@ -43,4 +43,5 @@
 				</div>
 			</div>
 		</form>
+		Du hast schon einen Account? <a href="<c:url value='/bv/login.do'/>">Hier</a> einloggen!
 	</div>

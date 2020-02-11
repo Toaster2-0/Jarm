@@ -20,4 +20,5 @@
 				</div>
 			</div>
 		</form>
+		Du hast noch keinen Account? <a href="<c:url value='/bv/register.do'/>">Hier</a> registrieren!
 	</div>
